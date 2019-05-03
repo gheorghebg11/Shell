@@ -8,11 +8,9 @@ TODO:
 - Assuming that all the images with the shell logo have pretty much the same colors, maybe we want to avoid chaning the brightness and the color intensity, etc.
 - change color labels for figures as they're black and we can't see them well
 - show missclassified pictures
-- show pictures in visualization to see some samples
 - compare a model trained by me with a pretrained model in which I just fine-tune the classifier
-- also data visualize some cropped images to see what he sees (this cropping adds a lot of reg ?)
 - add dropout ? MOre generally play with other models
-- during predictions, do 5 of them or so and then take geom mean of predicition scores (to eliminate some variance due to the cropping). And then do another geom mean (or do only a big geom mean) with all the folds
+- during predictions, maybe take the largest prediction ?
 - Enlarge the data set!
 
 For the interview:
