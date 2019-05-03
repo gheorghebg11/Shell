@@ -2,10 +2,9 @@
 Recognizing shell gas stations
 
 TODO:
-- If you are tuning a pretrained model, you’ll want to use Normalize to set mean and std. IN ALBUMENTATION
-- compare a model trained by me with a pretrained model in which I just fine-tune the classifier
+- compare a model trained by me with a pretrained model in which I just fine-tune the classifier. If you are tuning a pretrained model, you’ll want to use Normalize to set mean and std. IN ALBUMENTATION
 - add dropout ? MOre generally play with other models
-- Enlarge the data set!
+- Enlarge the data set! --> add more categories
 - hyperparam tuning : batch_size, factorreduceLR, LR, architecture, 
 - save tensorboard somehow (it resets after each fold) - can ask if I want to continue
 
