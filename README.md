@@ -2,16 +2,15 @@
 Recognizing shell gas stations
 
 TODO:
-- try only use the red channel since the shell logo has a lot of red (and the goal is to isolate that one), maybe filters out stuff. Do some visualization to see if the logo is clear though.
-- Only keep images with the logo ? So far I also have the ones with text too.
 - If you are tuning a pretrained model, you’ll want to use Normalize to set mean and std. IN ALBUMENTATION
-- Assuming that all the images with the shell logo have pretty much the same colors, maybe we want to avoid chaning the brightness and the color intensity, etc.
-- change color labels for figures as they're black and we can't see them well
-- show missclassified pictures
 - compare a model trained by me with a pretrained model in which I just fine-tune the classifier
 - add dropout ? MOre generally play with other models
 - during predictions, maybe take the largest prediction ?
 - Enlarge the data set!
+- for less blury : try to remove the photos with low res
+- hyperparam tuning : batch_size, factorreduceLR, LR, architecture, 
+- save tensorboard somehow (it resets after each fold) - can ask if I want to continue
+- data aug for val-set ?
 
 For the interview:
 Key features of this project:
