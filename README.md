@@ -2,8 +2,6 @@
 Recognizing shell gas stations
 
 TODO:
-- compare a model trained by me with a pretrained model in which I just fine-tune the classifier. If you are tuning a pretrained model, you’ll want to use Normalize to set mean and std. IN ALBUMENTATION
-- add dropout ? MOre generally play with other models
 - Enlarge the data set! --> add more categories
 - hyperparam tuning : batch_size, factorreduceLR, LR, architecture, at padding min_ratio
 - save tensorboard somehow (it resets after each fold) - can ask if I want to continue
@@ -12,6 +10,7 @@ TODO:
 - integrate images of tensorboard
 - try TPU
 - if tensorboard fails, just keep the graph and plot them, see bookmark
+- do a presentation from the notebook!
 
 
 Ways to improve:
@@ -21,6 +20,8 @@ Ways to improve:
 - enlarge the dataset
 - remove some low res photos, which would increase the min res and thus have the photos less blurry (because resized to bigger)
 - during predictions : take mode of prediction instead of geometric mean of probabilities
+- use a pretrained model
+- hyperparameter tuning
 
 Discussion for pres:
 - say about when I freaked out because all was pred chevron on test. It was because the image was loading weird.
