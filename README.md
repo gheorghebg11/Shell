@@ -15,6 +15,7 @@ Slideshow:
 - jupyter nbconvert /home/bogdan/Downloads/Shell_with_slides.ipynb --to slides --post serve --SlidesExporter.reveal_theme=serif --SlidesExporter.reveal_scroll=True
 - after its made, under Reveal.initialize({     .... under transition: ..., add the followin: width: 1900, height:900,
 - change color matplotlib, maybe light gray ?
+- add link to notebook in colab
 
 Discussion for pres:
 - 
