@@ -12,7 +12,7 @@ TODO:
 
 
 Slideshow:
-- after its made, under Reveal.initialize({     .... under transition: ..., add the followin: width: 1800, height:900,
+- after its made, under Reveal.initialize({     .... under transition: ..., add the followin: width: 1900, height:900,
 
 Discussion for pres:
 - 
