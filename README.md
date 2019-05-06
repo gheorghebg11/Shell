@@ -2,10 +2,8 @@
 Recognizing shell gas stations
 
 TODO:
-- Try with 8 cat!
 - hyperparam tuning : batch_size, factorreduceLR, LR, architecture, at padding min_ratio, crop dimensions
 - create cell to load a pretrained model for the pres to do live testing
-- add link to notebook in colab
 
 
 Slideshow:
