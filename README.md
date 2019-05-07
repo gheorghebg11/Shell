@@ -5,13 +5,11 @@ TODO:
 - hyperparam tuning : batch_size, factorreduceLR, LR, architecture, at padding min_ratio, crop dimensions
 - create cell to load a pretrained model for the pres to do live testing
 
-TODO FOR PRES:
+Presentation:
+- select them: jt -t solarizedd -nfs 10 -ofs 13 -dfs 15 -tfs 14 -altp -T -N -kl
 - convert normal to html
-- open in firefox and fix end to html?print-pdf
+- open in chrome and fix end to html?print-pdf
 - print as pdf
-
-- Do the one with 8, around 70% !
-- add link on githbut so that they can just open the html in their browser from the chat there
 
 Slideshow:
 1) Choose theme: FOR PRES
