@@ -15,8 +15,10 @@ TODO FOR PRES:
 - add link on githbut so that they can just open the html in their browser from the chat there
 
 Slideshow:
-1) Choose theme: 
+1) Choose theme: FOR PRES
 jt -t gruvboxd -nfs 10 -ofs 13 -dfs 15 -tfs 14 -altp -T -N -kl
+1) Choose theme: FOR PDF
+jt -t solarizedd -nfs 10 -ofs 13 -dfs 15 -tfs 14 -altp -T -N -kl
 2) Convert to slides:
 jupyter nbconvert /home/bogdan/Downloads/Shell_with_slides.ipynb --to slides --post serve --SlidesExporter.reveal_theme=serif --SlidesExporter.reveal_scroll=True
 3) Add width and height in the .html, just after Reveal.initialize({, say after 'history: true,', add the following: 
