@@ -5,6 +5,14 @@ TODO:
 - hyperparam tuning : batch_size, factorreduceLR, LR, architecture, at padding min_ratio, crop dimensions
 - create cell to load a pretrained model for the pres to do live testing
 
+TODO FOR PRES:
+- try all themes
+- convert normal to html
+- open in firefox and fix end to html?print-pdf
+- print as pdf
+
+- Do the one with 8, around 70% !
+- add link on githbut so that they can just open the html in their browser from the chat there
 
 Slideshow:
 1) Choose theme: 
