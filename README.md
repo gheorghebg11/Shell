@@ -6,7 +6,6 @@ TODO:
 - create cell to load a pretrained model for the pres to do live testing
 
 TODO FOR PRES:
-- try all themes
 - convert normal to html
 - open in firefox and fix end to html?print-pdf
 - print as pdf
