@@ -2,9 +2,6 @@
 Recognizing shell gas stations
 
 TODO:
-- create cell to load a pretrained model for the pres to do live testing
-- read through CV and know all
-- have passport
 
 
 - STRUCTURED INTERVIEW   --->   It is recommended that you come prepared to discuss specific tasks/projects you have worked on
